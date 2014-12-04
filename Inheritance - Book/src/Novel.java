@@ -1,6 +1,6 @@
 
 public abstract class Novel extends Book
-	{
+	 {
 	protected int chapter = 21;
 	
 	public abstract void openCList();
