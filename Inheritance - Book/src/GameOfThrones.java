@@ -6,6 +6,7 @@ public class GameOfThrones extends Novel
 	name = "Game Of Thrones";
 	chapter = 34;
 	publishingYear = 1996;
+	rateIt = (RateIt) new NotGood();
 	}
 
 @Override 

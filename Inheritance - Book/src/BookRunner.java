@@ -15,6 +15,11 @@ public class BookRunner
 			book[i].turnPageB();
 			book[i].summary();
 			book[i].showNum();
+			book[i].rateIt.isGood();
+			if(i == 0)
+				{
+				
+				}
 			System.out.println();
 			}
 		}

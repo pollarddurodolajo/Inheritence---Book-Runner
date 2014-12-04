@@ -6,6 +6,7 @@ public class Americanah extends Novel
 		name = "Americanah";
 		chapter = 12;
 		publishingYear = 2013;
+		rateIt = (RateIt) new IsGood();
 		}
 	
 	@Override 

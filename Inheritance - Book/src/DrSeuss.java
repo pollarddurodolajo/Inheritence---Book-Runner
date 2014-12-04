@@ -6,6 +6,7 @@ public class DrSeuss extends Poem
 		stanza = 10;
 		name = "The Lorax";
 		publishingYear = 1971;
+		rateIt = (RateIt) new IsGood();
 		}
 	
 	@Override

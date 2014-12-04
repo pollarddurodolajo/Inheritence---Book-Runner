@@ -3,6 +3,7 @@ public abstract class Book
 	{
 	protected String name;
 	protected int publishingYear;
+	protected RateIt rateIt;
 	
 	public abstract void summary();
 	public abstract void turnPageF();

@@ -6,6 +6,7 @@ public class theIlliad extends Poem
 	stanza = 34;
 	name = "The Illiad";
 	publishingYear = 762;
+	rateIt = (RateIt) new NotGood();
 	}
 
 @Override
