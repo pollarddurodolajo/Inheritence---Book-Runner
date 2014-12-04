@@ -4,7 +4,7 @@ public class Americanah extends Novel
 	public Americanah()
 		{
 		name = "Americanah";
-		chapter = 12;
+		chapter = super.chapter;
 		publishingYear = 2013;
 		rateIt = (RateIt) new IsGood();
 		}
